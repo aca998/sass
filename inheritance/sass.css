@@ -1,0 +1,32 @@
+#parent #button {
+  background: green;
+}
+
+#parent #button #child-One, #parent #button .another, #parent #button .evenmore {
+  background: yellow;
+  font-size: 1em;
+}
+
+#parent #button #child-Two {
+  font-weight: 200;
+}
+
+#parent #button #child-Two #inner-child .content {
+  background: blue;
+}
+
+#parent #button.HasClass #button {
+  background: blue;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#parent .content .child, #parent .sign .child, #parent video .child, #parent img .child, #parent elementOne .child, #parent ElementTwo .child, #parent ElementThree .child {
+  background: green;
+  font-size: 2em;
+}
+
+.content {
+  line-height: 2em;
+}
+/*# sourceMappingURL=sass.css.map */
